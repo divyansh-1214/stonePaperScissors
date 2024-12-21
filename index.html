@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>STONE PAPER SCISSORS</title>
+</head>
+<body>
+    <div id="cantainer" >
+        <h1 id="heading"> Stone Paper Scissors</h1>
+        
+        <p>COMPUTER</p>
+        <div id="cmove" class="move">
+            <button id="Rock">👊</button>
+            <button id="Paper">✋</button>
+            <button id="Scissors">✌️</button>
+        </div>
+        <p>YOU</p>
+        <div id="ymove"class = "move">
+            <button id="Rock" onclick="move('rock','PLAYER')">👊</button>
+            <button id="Paper" onclick="move('paper','PLAYER')">✋</button>
+            <button id="Scissors" onclick="move('scissors','PLAYER')">✌️</button>
+        </div>
+        <p id="result">RESULT: </p>
+        <p id="Cpoint">COMPUTER:</p>
+        <p id="Ppoint">PLAYER:</p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
